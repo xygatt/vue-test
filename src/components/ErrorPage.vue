@@ -1,6 +1,7 @@
+
 <template>
   <div>
-    <router-view/>
+    <h1>Error Page</h1>
   </div>
 </template>
 

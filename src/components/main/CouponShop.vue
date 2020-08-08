@@ -1,12 +1,12 @@
 <template>
-  <div>
-    <router-view/>
-  </div>
+    <div>
+        <h2>CouponShop</h2>
+    </div>
 </template>
 
 <script>
 export default {};
 </script>
 
-<style>
+<style scoped>
 </style>

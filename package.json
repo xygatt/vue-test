@@ -1,5 +1,5 @@
 {
-  "name": "test-1",
+  "name": "vue-test",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -38,5 +38,18 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "```\r npm install\r ```",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xygatt/vue-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xygatt/vue-test/issues"
+  },
+  "homepage": "https://github.com/xygatt/vue-test#readme"
 }

@@ -43,8 +43,9 @@ export default {
   },
   methods: {
       selectCategoty(id) {
-          console.log(id); 
-        //   router.push({ name: 'ShopList', params: { categoryId: id }})
+          console.log(id);
+        this.$router.push({ name: 'shoplist', params: { id: id }});
+        // this.$router.push({ path: 'shoplist', query: { id: id }});
       }
   }
 };

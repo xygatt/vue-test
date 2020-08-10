@@ -12,18 +12,22 @@ const router = new VueRouter({
   routes: [
     { 
       path: "/", 
+      name: "maindoor",
       component: MainDoor 
     },
     { 
-      path: "/shoplist", 
+      path: "/shoplist/:id", 
+      name: "shoplist",
       component: ShopList 
     },
     {
       path: "/shop", 
+      name: "shop",
       component: Shop
     },
     {
       path: "*",
+      name: "",
       component: ErrorPage
     }
   ]
